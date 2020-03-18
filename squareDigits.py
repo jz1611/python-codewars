@@ -9,4 +9,4 @@ def square_digits(num):
   new = []
   for num in list(str(num)):
     new.append(str(int(num) * int(num)))
-  return ''.join(new)
+  return int(''.join(new))
